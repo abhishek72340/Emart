@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#single-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#single-image{
+    width:25rem;
+ box-shadow: 0 0 2px gray;
+   
+}
+#deal{
+    padding: 2rem 0 0 9rem;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#price{
+    color: green;
+    padding: 2rem 0 0 9rem;
+}
+#off{
+    color: green;
+    padding: 2rem 0 0 9rem;
+}
+
+#cart-button{
+    display: flex;
+    justify-content: center;
+}

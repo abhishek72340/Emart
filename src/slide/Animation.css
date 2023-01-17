@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.slide-images {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all-product {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 25%;
+  overflow-x: auto;
+
+  /* justify-items: center; */
+}
+::-webkit-scrollbar {
+  border-radius: 50%;
+}
+
+.first-map-image {
+  max-width: 200px;
+  object-fit: contain;
+
+  transition: 1s;
+}
+.first-map-image:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.shop-out-collection {
+  font-size: 2rem;
+  font-weight: 500;
+
+  opacity: 0.8;
+  padding: 2rem;
+  letter-spacing: 1px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.choose-product {
+  display: grid;
+  gap: 2rem;
+
+  grid-auto-flow: column;
+  grid-auto-columns: 50%;
+  overflow-x: auto;
+}
+
+
+#link {
+  color: royalblue;
+  text-decoration: none;
+}
+
+
+/* for mobile design */
+@media (max-width:480px){
+  .shop-out-collection {
+    font-size: 1.1rem;  
+    opacity: 0.8;
+    padding: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .first-map-image {
+    max-width: 85px;
+    max-height: 100px;
+    object-fit: contain;  
+  
+  }
+ 
+  #rps{
+    font-size: 12px;
+  }
+  #title{
+    font-size: 9px;
+  }
+  #shop-btn{
+width:9px;
+height: 14px;
+font-size: 5px;
+ 
+  }
+
+}
+
+
+/* for tablet design */
+@media (min-width:481px) and (max-width:769px){
+  .shop-out-collection {
+    font-size: 1.5rem;  
+    opacity: 0.8;
+    padding: 2rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .first-map-image {
+    max-width: 110px;
+    max-height: 125px;
+    object-fit: contain;  
+    transition: 1s;
+  }
+}
+
+
+.first-api-heart{
+  font-size: 1.4rem;
+margin-left: 2rem;
+margin-top: 1rem;
+}
+.second-api-heart{
+  font-size: 1.4rem;
+position: absolute;
+margin-left: 1.1rem;
+}

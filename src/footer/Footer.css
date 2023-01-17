@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#footer-inform-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#email-submit {
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: row; */
+}
+
+#email-input {
+  height: 2rem;
+  font-size: 1.2rem;
+}
+#media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+.media {
+  color: black;
+}
+#copy-text {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: aliceblue;
+  font-size: 0.9rem;
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+.google-store {
+  width: 10rem;
+  margin-top: -3rem;
+}
+#emarts {
+  font-size: 1.5rem;
+}
+#collection {
+  font-size: 1.5rem;
+}
+#customer {
+  font-size: 1.5rem;
+}
+
+/* for mobile design */
+@media (max-width: 480px) {
+  #footer-inform-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 10px;
+  }
+
+  #emarts {
+    font-size: 15px;
+  }
+  #collection {
+    font-size: 15px;
+  }
+  #customer {
+    font-size: 15px;
+  }
+  .google-store {
+    width: 5rem;
+    margin-top: -1.4rem;
+  }
+  #email-input {
+    height: 1.5rem;
+    width: 8rem;
+    font-size: 1rem;
+  }
+  #sub-btn {
+    width: 4rem;
+    height: 1.7rem;
+    font-size: 10px;
+  }
+}
+
+/* for tablet design */
+@media (min-width: 481px) and (max-width: 769px) {
+}

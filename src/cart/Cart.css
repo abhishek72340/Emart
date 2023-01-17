@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-cart-container{
+  width: 40rem;
+  height: 7rem;;
+  background-color: white;
+  box-shadow: 0 0 2px gray;
+  position: relative;
+}
+.first{
+  display: flex;
+  justify-content: center;
+}
+.first-image{
+  width: 10.48rem;
+}
+.image-text{
+  display: flex;
+  justify-content: space-between;
+}
+.delete-icon{
+  color: red;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.delete-icon:hover{
+  transform: scale(1.2);
+  
+}
+.rupees{
+  color: green;
+ 
+}
+#shopping-cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
