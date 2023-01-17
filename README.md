@@ -1,3 +1,42 @@
+<h2>This is a E-commerce ,Developed by  using react<h2>
+<h2>purely responsive for desktop, mobile and tablet as well</h2>
+
+
+<h2>for desktop</h2>
+
+
+![first](https://user-images.githubusercontent.com/109124944/212858048-ce7ff1e0-f830-4341-9471-373bde37988b.png)
+
+
+
+
+
+
+
+
+
+![second](https://user-images.githubusercontent.com/109124944/212858179-62f2715d-53fb-4664-9556-1b2a16dd30f1.png)
+
+
+
+
+
+<h2>for tablet</h2>
+
+
+![fourth](https://user-images.githubusercontent.com/109124944/212858379-d6e4c3c8-3243-48a7-b1cb-efe93875f8ca.png)
+
+
+
+
+<h2>for mobile</h2>
+
+
+![third](https://user-images.githubusercontent.com/109124944/212858219-0cafd771-b9f4-4155-aafb-f47546cd5709.png)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
