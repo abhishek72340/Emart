@@ -1,4 +1,4 @@
-<h2>This is a E-commerce ,Developed by  using react<h2>
+<h2>This is a E-commerce ,Developed by  using react. And add authentication for logging<h2>
 <h2>purely responsive for desktop, mobile and tablet as well</h2>
 
 
